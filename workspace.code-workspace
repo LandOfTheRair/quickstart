@@ -1,0 +1,88 @@
+{
+	"folders": [
+		{
+			"name": "Client",
+			"path": "LandOfTheRair/client"
+		},
+		{
+			"name": "Server",
+			"path": "LandOfTheRair/server"
+		},
+		{
+			"name": "Shared",
+			"path": "LandOfTheRair/shared"
+		},
+		{
+			"name": "Main",
+			"path": "LandOfTheRair"
+		},
+		{
+			"path": "Assets"
+		},
+		{
+			"path": "Content"
+		},
+		{
+			"name": "Sandbox",
+			"path": "phaser-sandbox"
+		},
+		{
+			"name": "QuickStart",
+			"path": "./"
+		},
+	],
+	"settings": {
+		"editor.fontLigatures": true,
+		"editor.tabSize": 2,
+		"editor.detectIndentation": true,
+		"editor.insertSpaces": true,
+		"workbench.startupEditor": "newUntitledFile",
+		"workbench.editor.wrapTabs": true,
+		"typescript.updateImportsOnFileMove.enabled": "always",
+		"editor.wordWrap": "on",
+		"editor.codeActionsOnSave": {
+			"source.fixAll": true
+		},
+		"extensions.ignoreRecommendations": false,
+		"typescript.preferences.quoteStyle": "single",
+		"typescript.preferences.importModuleSpecifier": "relative",
+		"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+		"[typescript]": {},
+		"js/ts.implicitProjectConfig.experimentalDecorators": true,
+		"files.exclude": {
+			"node_modules": true
+		},
+		"files.associations": {
+			"*.lua.txt": "lua"
+		},
+		"editor.multiCursorModifier": "ctrlCmd",
+		"javascript.updateImportsOnFileMove.enabled": "always",
+		"emmet.showSuggestionsAsSnippets": false,
+		"emmet.showExpandedAbbreviation": "never",
+		"workbench.editor.decorations.colors": true,
+		"workbench.editor.decorations.badges": true,
+		"editor.linkedEditing": true,
+		"eslint.format.enable": true,
+		"eslint.lintTask.enable": true,
+		"search.useIgnoreFiles":false,
+		"search.exclude": {
+				"**/.git": true,
+				"**/node_modules": true,
+				"**/bower_components": true,
+				"**/tmp": true,
+				"**/dist": true
+		}
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "chrome",
+				"request": "attach",
+				"name": "Attach to Rair Client",
+				"port": 9222,
+				"webRoot": "${workspaceFolder:Client}"
+			}
+		]
+	}
+}
