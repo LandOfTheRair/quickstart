@@ -82,6 +82,13 @@
 				"name": "Attach to Rair Client",
 				"port": 9222,
 				"webRoot": "${workspaceFolder:Client}"
+			},
+			{
+				"type": "chrome",
+				"request": "attach",
+				"name": "Attach to Sandbox",
+				"port": 9222,
+				"webRoot": "${workspaceFolder:Sandbox}"
 			}
 		]
 	},
