@@ -46,7 +46,6 @@
 		"extensions.ignoreRecommendations": false,
 		"typescript.preferences.quoteStyle": "single",
 		"typescript.preferences.importModuleSpecifier": "relative",
-		"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 		"[typescript]": {},
 		"js/ts.implicitProjectConfig.experimentalDecorators": true,
 		"files.exclude": {
@@ -70,7 +69,12 @@
 				"**/node_modules": true,
 				"**/bower_components": true,
 				"**/tmp": true,
-				"**/dist": true
+				"**/dist": true,
+				"**/src/assets": true,
+				"**/content": true,
+				"**/_output": true,
+				"**/*.svg" : true,
+				"**/maps/**/*.json" : true
 		}
 	},
 	"launch": {
