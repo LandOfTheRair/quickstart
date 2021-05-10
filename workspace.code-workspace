@@ -74,7 +74,8 @@
 				"**/content": true,
 				"**/_output": true,
 				"**/*.svg" : true,
-				"**/maps/**/*.json" : true
+				"**/maps/**/*.json" : true,
+				"**/linked" : true
 		}
 	},
 	"launch": {
@@ -109,12 +110,10 @@
 			"formulahendry.auto-close-tag",
 			"formulahendry.auto-rename-tag",
 			"humao.rest-client",
-			"icrawl.discord-vscode",
 			"mikehanson.auto-barrel",
 			"ms-azuretools.vscode-docker",
 			"ms-vscode-remote.remote-wsl",
 			"ms-vscode.vscode-typescript-next",
-			"ms-vscode.vscode-typescript-tslint-plugin",
 			"ms-vsliveshare.vsliveshare",
 			"rbbit.typescript-hero",
 			"shan.code-settings-sync",
